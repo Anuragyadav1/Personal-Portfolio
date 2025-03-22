@@ -6,6 +6,8 @@ import foodDeliveryImg from '../assets/food_del.png';
 import bookStoreImg from '../assets/book_store.png';
 import ecommerceImg from '../assets/e_commerce.png'; 
 import dashboardImg from '../assets/dashboard.png';
+import carPredictionImg from '../assets/carPre.png';
+import chatAppImg from '../assets/chat_app.png';
 
 
 
@@ -42,6 +44,22 @@ const Projects = () => {
       technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Google OAuth'],
       github: 'https://github.com/Anuragyadav1/EMotored-Assignment',
       live: 'https://emotored-assignment-frontend.onrender.com/',
+    },
+    {
+      name: 'Used Car Price Prediction',
+      description: 'A machine learning model predicting used car resale prices with 92% accuracy.',
+      image: carPredictionImg,
+      technologies: ['Python', 'Scikit-Learn', 'Pandas', 'Streamlit', 'Joblib'],
+      github: 'https://github.com/Anuragyadav1/car-dekho',
+      // live: 'https://used-car-prediction-app.onrender.com/'
+    },
+    {
+      name: 'Real-Time Chat Application',
+      description: 'A MERN + Socket.IO chat app with real-time messaging, JWT authentication, and a fully responsive UI.',
+      image: chatAppImg,
+      technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.IO', 'JWT', 'Zustand', 'Tailwind CSS', 'Daisy UI'],
+      github: 'https://github.com/Anuragyadav1/Chat-Application',
+      live: 'https://my-chat-app-ogqb.onrender.com/'
     }
   ];
 
@@ -75,15 +93,17 @@ const Projects = () => {
                     <FaGithub className='mr-1' />
                     GitHub
                   </a>
-                  <a 
-                    href={project.live} 
-                    target='_blank' 
-                    rel='noopener noreferrer'
-                    className='flex items-center text-[#ccd6f6] hover:text-[#64ffda] transition duration-300'
-                  >
-                    <FaExternalLinkAlt className='mr-1' />
-                    Live Demo
-                  </a>
+                  {project.live && (
+                    <a 
+                      href={project.live} 
+                      target='_blank' 
+                      rel='noopener noreferrer'
+                      className='flex items-center text-[#ccd6f6] hover:text-[#64ffda] transition duration-300'
+                    >
+                      <FaExternalLinkAlt className='mr-1' />
+                      Live Demo
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
