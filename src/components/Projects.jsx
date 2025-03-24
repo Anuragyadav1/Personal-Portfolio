@@ -8,6 +8,7 @@ import ecommerceImg from '../assets/e_commerce.png';
 import dashboardImg from '../assets/dashboard.png';
 import carPredictionImg from '../assets/carPre.png';
 import chatAppImg from '../assets/chat_app.png';
+import connectHubImg from '../assets/connect_hub.png';
 
 
 
@@ -60,7 +61,16 @@ const Projects = () => {
       technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.IO', 'JWT', 'Zustand', 'Tailwind CSS', 'Daisy UI'],
       github: 'https://github.com/Anuragyadav1/Chat-Application',
       live: 'https://my-chat-app-ogqb.onrender.com/'
+    },
+    {
+      name: 'ConnectHub - Social Network Application',
+      description: 'A modern social network application enabling user authentication, friend system, and smart recommendations.',
+      image: connectHubImg,
+      technologies: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'JWT'],
+      github: 'https://github.com/Anuragyadav1/Social-Network',
+      live: 'https://social-network-frontend-ba1y.onrender.com/'
     }
+    
   ];
 
   return (
