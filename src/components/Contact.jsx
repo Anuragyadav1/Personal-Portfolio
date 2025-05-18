@@ -212,9 +212,9 @@ import React, { useState } from 'react';
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const whatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER;
-  const whatsappMessage = encodeURIComponent("Hello! I found your portfolio and would like to connect.");
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+  // const whatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER;
+  // const whatsappMessage = encodeURIComponent("Hello! I found your portfolio and would like to connect.");
+  // const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   const handleSubmit = (e) => {
     setIsSubmitting(true);
@@ -253,7 +253,7 @@ const Contact = () => {
       </form>
 
       {/* WhatsApp Chat Button with "or" */}
-      <div className="flex flex-col items-center mt-6">
+      {/* <div className="flex flex-col items-center mt-6">
         <p className="text-gray-300">OR</p>
         <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
           <button className="bg-[#25D366] text-white px-6 py-3 rounded-md font-bold flex items-center gap-2 hover:bg-[#1ebe57] duration-300 mt-2">
@@ -261,7 +261,7 @@ const Contact = () => {
             Chat on WhatsApp
           </button>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
