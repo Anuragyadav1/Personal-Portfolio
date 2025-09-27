@@ -50,9 +50,13 @@ const Home = () => {
                  className='hover:scale-125 transition-transform duration-300 text-[#333333] bg-gray-200 p-2 rounded-full'>
                 <FaGithub size={24} />
               </a>
-              <a href='mailto:10anuragyadav2002@gmail.com'
+              {/* <a href='mailto:10anuragyadav2002@gmail.com'
                  className='hover:scale-125 transition-transform duration-300 text-[#EA4335] bg-gray-200 p-2 rounded-full'>
                 <MdEmail size={24} />
+              </a> */}
+                 <a href='https://leetcode.com/u/Anurag102002/'
+                 className='hover:scale-125 transition-transform duration-300 text-[#e36c61] bg-gray-200 p-2 rounded-full'>
+                <SiLeetcode size={24} />
               </a>
             </div>
           </div>

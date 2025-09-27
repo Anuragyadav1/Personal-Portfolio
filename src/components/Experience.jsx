@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { FaCalendarAlt, FaBriefcase, FaMapMarkerAlt,  FaExternalLinkAlt } from 'react-icons/fa';
+import { FaCalendarAlt, FaBriefcase, FaMapMarkerAlt, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Experience = () => {
   return (
@@ -11,28 +10,64 @@ const Experience = () => {
           <p className='py-6'>My recent work experience</p>
         </div>
 
-        <div className='bg-[#112240] p-6 rounded-lg shadow-lg hover:shadow-[#64ffda]/20 transition duration-300'>
+        {/* Samunnati Experience */}
+        <div className='bg-[#112240] p-6 rounded-lg shadow-lg hover:shadow-[#64ffda]/20 transition duration-300 mb-6'>
           <div className='flex justify-between items-start flex-wrap'>
-            <h3 className='text-2xl font-bold text-[#ccd6f6]'>Emerging Technologies (AI & Cloud) Intern</h3>
+            <h3 className='text-2xl font-bold text-[#ccd6f6]'>Software Engineer Intern</h3>
             <div className='flex items-center text-[#64ffda]'>
               <FaCalendarAlt className='mr-2' />
-              <span>July 08 - August 05, 2024</span>
+              <span>Aug 2025 – Present</span>
             </div>
           </div>
-          
+
           <div className='flex items-center my-2 text-[#8892b0]'>
             <FaBriefcase className='mr-2' />
-            <span>Edunet Foundation in collaboration with AICTE</span>
+            <span>Samunnati</span>
           </div>
-          
+
+          <div className='flex items-center my-2 text-[#8892b0]'>
+            <FaMapMarkerAlt className='mr-2' />
+            <span>Chennai, India</span>
+          </div>
+
+          <p className='mt-4 text-[#8892b0]'>
+            Developed and maintained scalable backend services and RESTful APIs using <b>TypeScript and NestJS</b>. 
+            Designed efficient data models with <b>MySQL and MongoDB</b>, optimized queries, and collaborated with senior developers 
+            during code reviews and debugging to improve performance.
+          </p>
+
+          <div className='mt-4 flex flex-wrap gap-2'>
+            <span className='bg-[#172a45] px-3 py-1 rounded text-sm text-[#64ffda]'>TypeScript</span>
+            <span className='bg-[#172a45] px-3 py-1 rounded text-sm text-[#64ffda]'>NestJS</span>
+            <span className='bg-[#172a45] px-3 py-1 rounded text-sm text-[#64ffda]'>MySQL</span>
+            <span className='bg-[#172a45] px-3 py-1 rounded text-sm text-[#64ffda]'>MongoDB</span>
+          </div>
+        </div>
+
+        {/* Edunet Foundation Experience */}
+        <div className='bg-[#112240] p-6 rounded-lg shadow-lg hover:shadow-[#64ffda]/20 transition duration-300'>
+          <div className='flex justify-between items-start flex-wrap'>
+            <h3 className='text-2xl font-bold text-[#ccd6f6]'>AI & Cloud Computing Intern</h3>
+            <div className='flex items-center text-[#64ffda]'>
+              <FaCalendarAlt className='mr-2' />
+              <span>Jul 2024 – Aug 2024</span>
+            </div>
+          </div>
+
+          <div className='flex items-center my-2 text-[#8892b0]'>
+            <FaBriefcase className='mr-2' />
+            <span>Edunet Foundation (in collaboration with AICTE)</span>
+          </div>
+
           <div className='flex items-center my-2 text-[#8892b0]'>
             <FaMapMarkerAlt className='mr-2' />
             <span>Remote</span>
           </div>
-          
+
           <p className='mt-4 text-[#8892b0]'>
-            I successfully completed a 4-week internship in Emerging Technologies (AI & Cloud), leveraging IBM Cloud Platform and SkillsBuild.
-            This internship provided me with hands-on experience in AI and Cloud technologies, enhancing my technical skills and problem-solving abilities.
+            Built a <b>used car resale value prediction model</b> with 92% accuracy by processing 8,000+ records using 
+            <b>Random Forest Regressor</b>. Designed a <b>Streamlit web app</b> for real-time car price estimation, handled missing 
+            data with imputation, and implemented feature scaling to reduce prediction error by 18%.
           </p>
 
           {/* Certificate Link */}
@@ -47,11 +82,12 @@ const Experience = () => {
               View Certificate
             </a>
           </div>
-          
+
           <div className='mt-4 flex flex-wrap gap-2'>
             <span className='bg-[#172a45] px-3 py-1 rounded text-sm text-[#64ffda]'>Python</span>
             <span className='bg-[#172a45] px-3 py-1 rounded text-sm text-[#64ffda]'>AI</span>
-            <span className='bg-[#172a45] px-3 py-1 rounded text-sm text-[#64ffda]'>IBM Cloud</span>
+            <span className='bg-[#172a45] px-3 py-1 rounded text-sm text-[#64ffda]'>Streamlit</span>
+            <span className='bg-[#172a45] px-3 py-1 rounded text-sm text-[#64ffda]'>Machine Learning</span>
             <span className='bg-[#172a45] px-3 py-1 rounded text-sm text-[#64ffda]'>Cloud Computing</span>
           </div>
         </div>
