@@ -15,7 +15,7 @@ import connectHubImg from '../assets/connect_hub.png';
 const Projects = () => {
   const projects = [
     {
-      name: 'Food Delivery Application',
+      name: 'QuickBite',
       description: 'A full-stack MERN application for food ordering and delivery.',
       image: foodDeliveryImg,
       technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
@@ -23,7 +23,7 @@ const Projects = () => {
       live: 'https://food-del-frontend-0a4a.onrender.com/'
     },
     {
-      name: 'Book Store Application',
+      name: 'BookVibe',
       description: 'A MERN stack application for browsing and purchasing books online.',
       image: bookStoreImg,
       technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'REST APIs'],
@@ -31,7 +31,7 @@ const Projects = () => {
       live: 'https://bookstore-my-first-application.vercel.app/'
     },
     {
-      name: 'E-commerce Application',
+      name: 'ShopEase',
       description: 'A fully responsive e-commerce front-end using React and Stripe for payments.',
       image: ecommerceImg, // New Image
       technologies: ['React', 'Stripe', 'Tailwind CSS'],
@@ -39,7 +39,7 @@ const Projects = () => {
       live: 'https://mock-ecommerce-1.onrender.com/'
     },
     {
-      name: 'Innovative Dashboard',
+      name: 'SmartDash',
       description: 'A MERN-based dashboard with an enhanced UI/UX, exceeding design standards.',
       image: dashboardImg,
       technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Google OAuth'],
@@ -47,7 +47,7 @@ const Projects = () => {
       live: 'https://emotored-assignment-frontend.onrender.com/',
     },
     {
-      name: 'Used Car Price Prediction',
+      name: 'CarValuator',
       description: 'A machine learning model predicting used car resale prices with 92% accuracy.',
       image: carPredictionImg,
       technologies: ['Python', 'Scikit-Learn', 'Pandas', 'Streamlit', 'Joblib'],
@@ -55,7 +55,7 @@ const Projects = () => {
       // live: 'https://used-car-prediction-app.onrender.com/'
     },
     {
-      name: 'Real-Time Chat Application',
+      name: 'InstaTalk',
       description: 'A MERN + Socket.IO chat app with real-time messaging, JWT authentication, and a fully responsive UI.',
       image: chatAppImg,
       technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.IO', 'JWT', 'Zustand', 'Tailwind CSS', 'Daisy UI'],

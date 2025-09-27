@@ -31,9 +31,9 @@ const Experience = () => {
           </div>
 
           <p className='mt-4 text-[#8892b0]'>
-            Developed and maintained scalable backend services and RESTful APIs using <b>TypeScript and NestJS</b>. 
-            Designed efficient data models with <b>MySQL and MongoDB</b>, optimized queries, and collaborated with senior developers 
-            during code reviews and debugging to improve performance.
+            Working on scalable backend services and RESTful APIs using <b>TypeScript and NestJS</b>. 
+            Designing efficient data models with <b>MySQL and MongoDB</b>, optimizing queries, and collaborating with senior developers 
+            during code reviews and debugging to improve system performance.
           </p>
 
           <div className='mt-4 flex flex-wrap gap-2'>
